@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>
+        Storm Simulator Interface
+    </title>
+    <style>
+         table, tr, td{
+         border: 1px solid black;
+         text-align:left;
+         padding: 15px;
+         }
+     </style>
+
+    <script type = "text/javascript">
+         function WebSocketTest() {
+			window.WebSocket = window.WebSocket || window.MozWebSocket;
+
+            if ("WebSocket" in window) {
+               console.log("WebSocket is supported by your Browser!");
+
+               // Let us open a web socket
+               var ws = new WebSocket("ws://localhost:5000");
+
+
+               ws.onmessage = function (evt) {
+                  var received_msg = evt.data;
+				  var key_value = received_msg.split(': ');
+				  document.getElementById(key_value[0]).textContent=key_value[1];
+                  //console.log(received_msg.length + " " + received_msg);
+               };
+
+			   ws.onerror = function(error) {
+					console.log("Websocket error: " + JSON.stringify(error, ["message", "arguments", "type", "name"]));
+			   }
+
+               ws.onclose = function() {
+
+                  // websocket is closed.
+                  console.log("Connection is closed...");
+					setTimeout(function(){WebSocketTest()}, 5000);
+               };
+            } else {
+
+               // The browser doesn't support WebSocket
+               console.log("WebSocket NOT supported by your Browser!");
+            }
+         }
+
+		document.addEventListener('DOMContentLoaded', function() {
+		   	WebSocketTest();
+		}, false);
+      </script>
+</head>
+<body>
+<table>
+    <tr style="background-color:#4CAF50;">
+        <td>Component</td>
+        <td>Throughput</td>
+        <td>Maximum Latency</td>
+        <td>Average Latency</td>
+        <td>Emitted Tuples</td>
+    </tr>
+    <tr>
+        <td>Parser</td>
+        <td id="Parser-Throughput">0.85749309</td>
+        <td id="Parser-MaxLatency">32.09848451</td>
+        <td id="Parser-AvgLatency">10.57633492</td>
+        <td id="Parser-emittedTuples">50</td>
+    </tr>
+    <tr style="background-color:#f2f2f2;">
+        <td>Counter1</td>
+        <td id="Counter1-Throughput">0.85749309</td>
+        <td id="Counter1-MaxLatency">32.09848451</td>
+        <td id="Counter1-AvgLatency">10.57633492</td>
+        <td id="Counter1-emittedTuples">23</td>
+    </tr>
+    <tr>
+        <td>Counter2</td>
+        <td id="Counter2-Throughput">0.85749309</td>
+        <td id="Counter2-MaxLatency">32.09848451</td>
+        <td id="Counter2-AvgLatency">10.57633492</td>
+        <td id="Counter2-emittedTuples">27</td>
+    </tr>
+    <tr style="background-color:#f2f2f2;">
+        <td>Accumulator</td>
+        <td id="Accumulator-Throughput">0.85749309</td>
+        <td id="Accumulator-MaxLatency">32.09848451</td>
+        <td id="Accumulator-AvgLatency">10.57633492</td>
+        <td id="Accumulator-emittedTuples">50</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td style="background-color:#4CAF50;">Total Up time</td>
+        <td id="Counter1-time">534</td>
+    </tr>
+</table>
+</body>
+
+</html>
