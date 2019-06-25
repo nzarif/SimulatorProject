@@ -79,7 +79,7 @@ public class JavaHTTPServer implements Runnable {
                     out.print(new String(createFrame(names[i] + "-emittedTuples: " + Integer.toString(tasks.get(i).emittedTuples))));
                     out.flush();
                 }
-                out.print(new String(createFrame(names[0] + "-time: " + Integer.toString(((Parser)tasks.get(0)).time))));
+                out.print(new String(createFrame(names[1] + "-time: " + Integer.toString(((Counter)tasks.get(1)).time))));
                 out.flush();
                 Thread.sleep(1000);
             }

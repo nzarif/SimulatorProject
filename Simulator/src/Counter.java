@@ -4,6 +4,7 @@ import java.util.concurrent.BlockingQueue;
 public class Counter extends Task {
 	static public int lastId = -1;
 	public int id;
+	public int time;
 	HashMap<String,Integer> counter=new HashMap<String,Integer>();
 
 	public Counter(BlockingQueue<Tuple> input, BlockingQueue<Tuple> output){
@@ -11,10 +12,10 @@ public class Counter extends Task {
 		this.input=input;
 		this.id = lastId + 1;
 		lastId ++;
+		time = 0;
 	}
 	@Override
 	public void run() {
-		int time=0;
 		double previousTimeStamp=0;
 		while(true){
 			time++;
