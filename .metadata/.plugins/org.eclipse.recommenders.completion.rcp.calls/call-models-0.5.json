@@ -1,0 +1,13 @@
+{
+  "C:\\Program Files\\Java\\jre7\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\rt.jar",
+    "status": "RESOLVED",
+    "error": "Could not transfer artifact jre:jre:zip:call:1.0.0 from/to remote-models (http://download.eclipse.org/recommenders/models/juno/): Error transferring file, server returned status code 307"
+  },
+  "F:\\uni\\LAB\\code\\storm_simulator\\Simulator\\src": {
+    "location": "F:\\uni\\LAB\\code\\storm_simulator\\Simulator\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027F:\\uni\\LAB\\code\\storm_simulator\\Simulator\\src\u0027. Skipped."
+  }
+}

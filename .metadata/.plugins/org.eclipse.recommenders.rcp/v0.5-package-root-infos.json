@@ -1,0 +1,431 @@
+[
+  {
+    "symbolicName": "log4j.over.slf4j",
+    "version": {
+      "major": 1,
+      "minor": 6,
+      "micro": 6,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "170e8f7395753ebbe6710bb862a84689db1f128b",
+    "jarFileModificationDate": "2016-11-04T13:02:46+03:30",
+    "location": "C:\\apache-storm-1.1.1\\apache-storm-1.1.1\\lib\\log4j-over-slf4j-1.6.6.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "09b904fc11c01424d8fa8cf3d653699a9cea6426",
+    "jarFileModificationDate": "2016-12-01T21:28:02.721+03:30",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9d16570aa791826545083638456a9e10dd5d0729",
+    "jarFileModificationDate": "2016-12-01T21:27:57.550+03:30",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\jfr.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.apache.logging.log4j.core",
+    "version": {
+      "major": 2,
+      "minor": 8,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "979fc0cf8460302e4ffbfe38c1b66a99450b0bb7",
+    "jarFileModificationDate": "2017-06-01T13:58:38+04:30",
+    "location": "C:\\apache-storm-1.1.1\\apache-storm-1.1.1\\lib\\log4j-core-2.8.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a41d5a55a106f2332852e5fbff89df0de4a56534",
+    "jarFileModificationDate": "2016-12-01T21:27:57.529+03:30",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "commons-cli",
+    "version": {
+      "major": 1,
+      "minor": 3,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d13593083d867a9b90e35f88848139b1683afc3a",
+    "jarFileModificationDate": "2017-07-27T13:59:50+04:30",
+    "location": "C:\\apache-storm-1.1.1\\apache-storm-1.1.1\\toollib\\storm-kafka-monitor-1.1.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.lmax.disruptor",
+    "version": {
+      "major": 3,
+      "minor": 3,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8db3df28d7e4ad2526be59b54a1cbd9c9e982a7a",
+    "jarFileModificationDate": "2016-11-04T13:02:46+03:30",
+    "location": "C:\\apache-storm-1.1.1\\apache-storm-1.1.1\\lib\\disruptor-3.3.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "storm-kafka-monitor-1.1.1-sources",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e6e419181bc4e1a6d82ebab211e9a2e3c8d460f7",
+    "jarFileModificationDate": "2017-07-27T13:59:44+04:30",
+    "location": "C:\\apache-storm-1.1.1\\apache-storm-1.1.1\\toollib\\storm-kafka-monitor-1.1.1-sources.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ef4cbcb4f2871245a74ddcebee7f0a531a09f5fe",
+    "jarFileModificationDate": "2016-12-01T21:27:57.030+03:30",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\jaccess.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.esotericsoftware.minlog",
+    "version": {
+      "major": 1,
+      "minor": 3,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ff07b5f1b01d2f92bb00a337f9a94873712f0827",
+    "jarFileModificationDate": "2016-11-04T13:02:44+03:30",
+    "location": "C:\\apache-storm-1.1.1\\apache-storm-1.1.1\\lib\\minlog-1.3.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.logging.log4j.slf4j-impl",
+    "version": {
+      "major": 2,
+      "minor": 8,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "36bc2a99b86be26ccdc51fe288458dc712d280c1",
+    "jarFileModificationDate": "2017-06-01T13:58:38+04:30",
+    "location": "C:\\apache-storm-1.1.1\\apache-storm-1.1.1\\lib\\log4j-slf4j-impl-2.8.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e361d3d6618b1dc46edf493a28c7e0b9d24127e0",
+    "jarFileModificationDate": "2016-12-01T21:28:01.914+03:30",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.clojure.clojure",
+    "version": {
+      "major": 1,
+      "minor": 7,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4953eb1ffa4adca22760c9324c9c26d2038c392a",
+    "jarFileModificationDate": "2016-11-04T13:02:46+03:30",
+    "location": "C:\\apache-storm-1.1.1\\apache-storm-1.1.1\\lib\\clojure-1.7.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "37ccf56b48940c128b709649f83f5d09948b2cd9",
+    "jarFileModificationDate": "2016-12-01T21:27:57.672+03:30",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "servlet-api-2.5",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5959582d97d8b61f4d154ca9e495aafd16726e34",
+    "jarFileModificationDate": "2016-11-04T13:02:26+03:30",
+    "location": "C:\\apache-storm-1.1.1\\apache-storm-1.1.1\\lib\\servlet-api-2.5.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "ring-cors",
+    "version": {
+      "major": 0,
+      "minor": 1,
+      "micro": 5,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "cbf25a08e49b11e2ea03010abc5283057d2ffe17",
+    "jarFileModificationDate": "2016-11-04T14:22:58+03:30",
+    "location": "C:\\apache-storm-1.1.1\\apache-storm-1.1.1\\lib\\ring-cors-0.1.5.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.google.guava.guava",
+    "version": {
+      "major": 16,
+      "minor": 0,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "54cd84aa72b6b6266e64fc56fe8ea8a7552b4673",
+    "jarFileModificationDate": "2017-07-27T13:48:06+04:30",
+    "location": "C:\\apache-storm-1.1.1\\apache-storm-1.1.1\\lib\\storm-rename-hack-1.1.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "storm-kafka-monitor-1.1.1-javadoc",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "eeee180fb528b3a69457a47b446677c58ca0b3f1",
+    "jarFileModificationDate": "2017-07-27T13:59:46+04:30",
+    "location": "C:\\apache-storm-1.1.1\\apache-storm-1.1.1\\toollib\\storm-kafka-monitor-1.1.1-javadoc.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d00d314b0ea8bff77ce8f327464371d6263ee7ff",
+    "jarFileModificationDate": "2016-12-01T21:27:56.806+03:30",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "443658612b0ed8e1c2fe0353ee4e9a0f5ade636c",
+    "jarFileModificationDate": "2016-12-01T21:27:57.261+03:30",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "slf4j.api",
+    "version": {
+      "major": 1,
+      "minor": 7,
+      "micro": 21,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "139535a69a4239db087de9bab0bee568bf8e0b70",
+    "jarFileModificationDate": "2017-02-24T14:39:02+03:30",
+    "location": "C:\\apache-storm-1.1.1\\apache-storm-1.1.1\\lib\\slf4j-api-1.7.21.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.logging.log4j.api",
+    "version": {
+      "major": 2,
+      "minor": 8,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e590eeb783348ce8ddef205b82127f9084d82bf3",
+    "jarFileModificationDate": "2017-06-01T13:58:38+04:30",
+    "location": "C:\\apache-storm-1.1.1\\apache-storm-1.1.1\\lib\\log4j-api-2.8.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ce072f3be7f65c4c9ffd835658f7d9250a122267",
+    "jarFileModificationDate": "2016-12-01T21:28:02.582+03:30",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "40a67c09f821af3f62d428e4d79980f9df10e407",
+    "jarFileModificationDate": "2016-12-01T21:27:57.251+03:30",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\sunec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "60179ff78d4e0d6f8a0cc779c5972dec61344c35",
+    "jarFileModificationDate": "2016-12-01T21:28:02.040+03:30",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.objectweb.asm",
+    "version": {
+      "major": 5,
+      "minor": 0,
+      "micro": 3,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "dcc2193db20e19e1feca8b1240dbbc4e190824fa",
+    "jarFileModificationDate": "2016-11-04T13:02:44+03:30",
+    "location": "C:\\apache-storm-1.1.1\\apache-storm-1.1.1\\lib\\asm-5.0.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9072872a90cd49d21fad395077243521a6a2190b",
+    "jarFileModificationDate": "2016-12-01T21:27:56.770+03:30",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\access-bridge-64.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "90fa2214958f39e6ad4b2fdc410053a269fda1d2",
+    "jarFileModificationDate": "2016-12-01T21:27:57.372+03:30",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\sunmscapi.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.esotericsoftware.kryo",
+    "version": {
+      "major": 3,
+      "minor": 0,
+      "micro": 3,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "01ebca99f633ef31484176a727093e78c7fa43e7",
+    "jarFileModificationDate": "2016-11-04T13:02:44+03:30",
+    "location": "C:\\apache-storm-1.1.1\\apache-storm-1.1.1\\lib\\kryo-3.0.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.objenesis",
+    "version": {
+      "major": 2,
+      "minor": 1,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "87c0ea803b69252868d09308b4618f766f135a96",
+    "jarFileModificationDate": "2016-11-04T13:02:44+03:30",
+    "location": "C:\\apache-storm-1.1.1\\apache-storm-1.1.1\\lib\\objenesis-2.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.esotericsoftware.reflectasm",
+    "version": {
+      "major": 1,
+      "minor": 10,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "515402cd542ab967a1b5028b4dee1e1800db205b",
+    "jarFileModificationDate": "2016-11-04T13:02:44+03:30",
+    "location": "C:\\apache-storm-1.1.1\\apache-storm-1.1.1\\lib\\reflectasm-1.10.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.hadoop.hadoop-auth",
+    "version": {
+      "major": 2,
+      "minor": 6,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "086febcd11bcd5ae544d901d52f525afc891ae11",
+    "jarFileModificationDate": "2017-07-27T13:47:36+04:30",
+    "location": "C:\\apache-storm-1.1.1\\apache-storm-1.1.1\\lib\\storm-core-1.1.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f6dc9e40ede663e6492b81474051cc8d2cd0e1ab",
+    "jarFileModificationDate": "2016-12-01T21:27:57.381+03:30",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\zipfs.jar",
+    "javaRuntime": true
+  }
+]

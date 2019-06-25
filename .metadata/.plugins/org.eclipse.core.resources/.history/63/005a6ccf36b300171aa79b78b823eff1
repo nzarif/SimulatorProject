@@ -1,0 +1,44 @@
+public class Tuple {
+	private String value=new String();
+	private long messageID;
+	private int timeStamp;
+	private Spout source;
+	public Tuple(String value,Spout source){
+		this.value=value;
+		this.source=source;
+		this.timeStamp=0;
+		this.messageID=Math.round(Math.random()*18446744073709551616);
+	}
+	public void setTime(int time){
+		this.timeStamp=time;
+	}
+	public void setMessageID(long id){
+		this.messageID=id;
+	}
+	public void setValue(String value){
+		this.value=value;
+	}
+	public void setSource(Spout source){
+		this.source=source;
+	}
+	public int getTime(){
+		return this.timeStamp;
+	}
+	public long getMessageID(){
+		return this.messageID;
+	}
+	public String getValue(){
+		return this.value;
+	}
+	public Spout getSource(){
+		return this.source;
+	}
+	public int addTime(int add){
+		timeStamp+=add;
+		return this.timeStamp;
+	}
+	public long xorMessageID(long xor){
+		messageID=messageID^xor;
+		return this.messageID;
+	}
+}

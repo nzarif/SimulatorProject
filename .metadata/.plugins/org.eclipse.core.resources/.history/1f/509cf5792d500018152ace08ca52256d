@@ -1,0 +1,22 @@
+import org.apache.storm.*;
+public abstract class Task extends Thread {
+	private Function func;
+	private enum functionality{
+		spout,
+		bolt
+	}
+	private functionality type;
+	private Grouping;
+	public Task(Function func){
+		this.func=func;
+	}
+	public void run(){
+		func.run();
+	}
+	public void setFunctionality(functionality type){
+		this.type=type;
+	}
+	public functionality getFunctionality(){
+		return this.type;
+	}
+}
